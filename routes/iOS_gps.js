@@ -5,9 +5,9 @@ let coordinate = require('../utils/coordinate');
 
 var router = express.Router();
 
-let gpx_file_position = '/Users/hanfeihang/projects/GodFeet/Location.gpx';
-let apple_script_position = '/Users/hanfeihang/projects/zhuoyao/apple_script/xcode_simulation';
-let apple_script_connect = '/Users/hanfeihang/projects/zhuoyao/apple_script/xcode_connect';
+let gpx_file_position = '/Users/johnlee/Desktop/gps/Location.gpx';
+let apple_script_position = '/Users/johnlee/zhuoyao/apple_script/xcode_simulation';
+let apple_script_connect = '/Users/johnlee/zhuoyao/apple_script/xcode_connect';
 
 /* GET users listing. */
 router.get('/lon/:lon/lat/:lat', function (req, res, next) {
